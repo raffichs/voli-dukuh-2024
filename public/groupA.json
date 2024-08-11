@@ -1,0 +1,22 @@
+{
+  "teams": [
+    {
+      "pos": 1,
+      "name": "Senin",
+      "logo": "senin.svg",
+      "points": 0
+    },
+    {
+      "pos": 2,
+      "name": "Sabtu",
+      "logo": "sabtu.svg",
+      "points": 0
+    },
+    {
+      "pos": 3,
+      "name": "Kamis",
+      "logo": "kamis.svg",
+      "points": 0
+    }
+  ]
+}

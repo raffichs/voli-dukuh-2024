@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "UEFAEuro Book";
+    src: url(./fonts/UEFAEuro-Book.ttf);
+  }
+  @font-face {
+    font-family: "UEFAEuro Medium";
+    src: url(./fonts/UEFAEuro-Medium.ttf);
+  }
+  @font-face {
+    font-family: "UEFAEuro Heavy";
+    src: url(./fonts/UEFAEuro-HeavyNarrow.ttf);
+  }
+  @font-face {
+    font-family: "UEFAEuro Bold";
+    src: url(./fonts/UEFAEuro-Bold.ttf);
+  }
+  @font-face {
+    font-family: "UEFAEuro ExtraBold";
+    src: url(./fonts/UEFAEuro-ExtraBoldNarrow.ttf);
+  }
+}

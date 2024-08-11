@@ -2,14 +2,14 @@
   "teams": [
     {
       "pos": 1,
-      "name": "Selasa",
-      "logo": "Selasa.svg",
-      "points": 0
+      "name": "Minggu",
+      "logo": "Minggu.svg",
+      "points": 3
     },
     {
       "pos": 2,
-      "name": "Minggu",
-      "logo": "Minggu.svg",
+      "name": "Selasa",
+      "logo": "Selasa.svg",
       "points": 0
     },
     {

@@ -57,7 +57,7 @@ const Schedule = () => {
         </div>
       </div>
 
-      <div className="font-eurobold text-[12px] mt-8">Terakhir diperbarui: 11 Agustus 15:00 WIB</div>
+      <div className="font-eurobold text-[12px] mt-8">Terakhir diperbarui: 11 Agustus 22:00 WIB</div>
     </div>
   );
 };

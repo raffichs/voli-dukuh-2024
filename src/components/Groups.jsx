@@ -7,7 +7,6 @@ const GroupTable = ({ group }) => {
     fetch(`/group${group}.json`)
       .then((res) => res.json())
       .then((data) => {
-        console.log("data: " + data);
         if (data.teams && data.teams.length > 0) {
           setTeams(data.teams);
         }
@@ -40,7 +39,7 @@ const GroupTable = ({ group }) => {
           >
             <div>{team.pos}</div>
             <div className="flex gap-2 bg-[#0000004d] p-2 w-44 items-center">
-              <img src={`./src/assets/${team.logo}`} className="h-5" alt="" />
+              <img src={`/src/assets/${team.logo}`} className="h-5" alt="" />
               <div>{team.name}</div>
             </div>
             <div className="flex justify-center items-center bg-white text-black h-8 w-8">

@@ -2,7 +2,7 @@ const Card = ({ teams, score }) => {
   return (
     <div className="flex justify-center items-center font-eurobold text-[12px] gap-2 my-1">
       <div className="flex gap-2 bg-[#0000004d] p-2 w-44 items-center">
-        <img src={`./src/assets/${teams}.svg`} className="h-5" alt="" />
+        <img src={`/src/assets/${teams}.svg`} className="h-5" alt="" />
         <div>{teams}</div>
       </div>
       <div className="flex justify-center items-center bg-white text-black h-8 w-8">

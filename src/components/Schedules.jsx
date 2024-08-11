@@ -19,13 +19,13 @@ const Schedule = () => {
         <div className="font-eurobold text-sm mt-5">Minggu 11 Agustus 2024</div>
         <div className="mt-2">
           <div className="font-eurobold text-[#D4E2EA] text-xs">19:30 WIB</div>
-          <Card teams="Senin" />
-          <Card teams="Sabtu" />
+          <Card teams="Senin" score="2"/>
+          <Card teams="Sabtu" score="0"/>
         </div>
         <div className="mt-4">
           <div className="font-eurobold text-[#D4E2EA] text-xs">20:00 WIB</div>
-          <Card teams="Selasa" />
-          <Card teams="Minggu" />
+          <Card teams="Selasa" score="0"/>
+          <Card teams="Minggu" score="2"/>
         </div>
       </div>
 

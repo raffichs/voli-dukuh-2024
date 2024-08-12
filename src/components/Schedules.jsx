@@ -19,13 +19,13 @@ const Schedule = () => {
         <div className="font-eurobold text-sm mt-5">Minggu 11 Agustus 2024</div>
         <div className="mt-2">
           <div className="font-eurobold text-[#D4E2EA] text-xs">19:30 WIB</div>
-          <Card teams="Senin" score="2"/>
-          <Card teams="Sabtu" score="0"/>
+          <Card teams="Senin" score="0" />
+          <Card teams="Sabtu" score="2" />
         </div>
         <div className="mt-4">
           <div className="font-eurobold text-[#D4E2EA] text-xs">20:00 WIB</div>
-          <Card teams="Selasa" score="0"/>
-          <Card teams="Minggu" score="2"/>
+          <Card teams="Selasa" score="0" />
+          <Card teams="Minggu" score="2" />
         </div>
       </div>
 
@@ -33,31 +33,33 @@ const Schedule = () => {
         <div className="font-eurobold text-sm mt-5">Senin 12 Agustus 2024</div>
         <div className="mt-2">
           <div className="font-eurobold text-[#D4E2EA] text-xs">19:30 WIB</div>
-          <Card teams="Senin" />
-          <Card teams="Kamis" />
+          <Card teams="Senin" score="2"/>
+          <Card teams="Kamis" score="0"/>
         </div>
         <div className="mt-4">
           <div className="font-eurobold text-[#D4E2EA] text-xs">20:00 WIB</div>
-          <Card teams="Selasa" />
-          <Card teams="Rabu" />
+          <Card teams="Selasa" score="1"/>
+          <Card teams="Rabu" score="2"/>
         </div>
       </div>
 
       <div className="mt-8">
         <div className="font-eurobold text-sm mt-5">Selasa 13 Agustus 2024</div>
-        <div className="mt-2">
-          <div className="font-eurobold text-[#D4E2EA] text-xs">19:30 WIB</div>
-          <Card teams="Sabtu" />
-          <Card teams="Kamis" />
-        </div>
         <div className="mt-4">
-          <div className="font-eurobold text-[#D4E2EA] text-xs">20:00 WIB</div>
+          <div className="font-eurobold text-[#D4E2EA] text-xs">19:30 WIB</div>
           <Card teams="Minggu" />
           <Card teams="Rabu" />
         </div>
+        <div className="mt-2">
+          <div className="font-eurobold text-[#D4E2EA] text-xs">20:00 WIB</div>
+          <Card teams="Sabtu" />
+          <Card teams="Kamis" />
+        </div>
       </div>
 
-      <div className="font-eurobold text-[12px] mt-8">Terakhir diperbarui: 11 Agustus 22:00 WIB</div>
+      <div className="font-eurobold text-[12px] mt-8">
+        Terakhir diperbarui: 12 Agustus 22:00 WIB
+      </div>
     </div>
   );
 };

@@ -15,7 +15,7 @@ const Card = ({ teams, score }) => {
 const Schedule = () => {
   return (
     <div className="max-w-60 m-auto">
-      <div className="mt-8">
+      <div className="mt-8 mb-20">
         <div className="font-eurobold text-sm mt-5">
           Rabu 14 Agustus 2024 (<span className="text-[#49e46d]">Semi-finals</span>)
         </div>
